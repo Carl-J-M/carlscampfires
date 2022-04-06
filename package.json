@@ -1,0 +1,27 @@
+{
+  "name": "carlscampfire",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carl-J-M/carlscampfires.git"
+  },
+  "author": "Carl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carl-J-M/carlscampfires/issues"
+  },
+  "homepage": "https://github.com/Carl-J-M/carlscampfires#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
