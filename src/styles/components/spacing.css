@@ -1,0 +1,29 @@
+
+.spacing {
+  padding: var(--spacing);
+}
+
+.spacing--sm {
+  padding: var(--spacing-small);
+}
+
+.spacing--lg {
+  padding: var(--spacing-large);
+}
+
+.spacing--bottom-sm {
+  padding-bottom: var(--spacing-small);
+}
+
+.spacing--bottom {
+  padding-bottom: var(--spacing);
+}
+
+.spacing--bottom-lg {
+  padding-bottom: var(--spacing-large);
+}
+
+.spacing--bottom-xl {
+  padding-bottom: var(--spacing-xlarge);
+}
+

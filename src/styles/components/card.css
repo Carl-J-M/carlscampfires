@@ -1,0 +1,8 @@
+.card {
+  background-color: var(--color-white);
+}
+
+.card--border {
+  border: solid var(--color-grey) 2px;
+  padding: var(--spacing);
+}

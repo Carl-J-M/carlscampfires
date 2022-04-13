@@ -1,0 +1,26 @@
+
+:root {
+  --font-family-body: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+  --font-size: 1rem;
+  --font-size-h1: calc(var(--font-size) * 2.25);
+  --font-size-h2: calc(var(--font-size) * 1.5);
+  --font-size-h3: calc(var(--font-size) * 1.25);
+  --font-size-h4: calc(var(--font-size) * 1);
+
+  --line-height: 1.5;
+  --line-height-heading: 1.25;
+
+  --spacing: 1rem;
+  --spacing-small: 0.5rem;
+  --spacing-xsmall: 0.25rem;
+  --spacing-large: 2rem;
+  --spacing-xlarge: 4rem;
+
+  --span-default: calc(1 / 12);
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey-light: #eee;
+  --color-grey: #ccc;
+  --color-grey-dark: #999;
+}

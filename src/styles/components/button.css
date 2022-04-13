@@ -1,0 +1,20 @@
+.button {
+  background-color: var( --color-grey-dark);
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+
+  line-height: var(--line-height);
+  font-size: var(--font-size);
+  padding: var(--spacing-small) var(--spacing)
+}
+
+.button--block {
+  display: block;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: var(--color-grey-light);
+  border: none;
+}

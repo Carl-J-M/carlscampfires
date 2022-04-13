@@ -1,0 +1,9 @@
+.page-section {
+  background-color: var(--color-grey-light);
+  padding: 5%;
+}
+
+.page-section--light {
+  background-color: var(--color-white);
+}
+
