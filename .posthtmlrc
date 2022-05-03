@@ -1,5 +1,16 @@
 {
   "plugins": {
-    "posthtml-modules": {}
+    "posthtml-modules": {
+      "from": "./src/components/card.html",
+      "tag": "component",
+      "attribute": "src",
+      "attributeAsLocals": true,
+      "expressions": {
+        "strictMode": false
+      }
+    },
+    "posthtml-expressions": {
+      "strictMode": false
+    }
   }
 }

@@ -22,7 +22,9 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "expressions": "1.1.4",
     "parcel": "^2.4.1",
+    "posthtml-match-helper": "1.0.3",
     "posthtml-modules": "^0.8.1"
   }
 }
