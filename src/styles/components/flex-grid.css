@@ -1,16 +1,36 @@
-
+/* Effectively removes the initial & ending padding while preserving padding between elements */
 .flex-grid {
   display: flex;
-  flex-wrap: wrap;
+  margin: calc(var(--spacing-small) * -1);
+}
+
+.flex-grid--space-between {
+  justify-content: space-between;
+}
+
+.flex-grid--align-items-center {
+  align-items: center;
+}
+.flex-grid--justify-content-center {
+  justify-content: center;
 }
 .flex-grid--vertical {
   flex-direction: column;
 }
-.flex-grid__item {
-  padding: var(--spacing-small);
-  width: 100%;
+.flex-grid--wrap {
+  flex-wrap: wrap;
 }
 
+.flex-grid__item {
+  padding: var(--spacing-small);
+  /* background-color: rgba(0,0,0,0.1); */
+}
+
+.flex-grid--grow {
+  flex-grow: 1;
+}
+
+  /* Forces content to occupy full height */
 .flex-grid__item--grid {
   display: grid;
 }

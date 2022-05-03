@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+  <module href="./src/components/card.html">
+    title
+  </module>
   <div class="page-section page-section--light">
     <div class="container">
       <div class="text-align--center">
@@ -16,7 +19,7 @@
           <p class="subheading">I'm a page section subheading!</p>
         </div>
       </div>
-      <div class="flex-grid">
+      <div class="flex-grid flex-grid--wrap">
         <div class="flex-grid__item flex-grid__item--grid flex-grid__item--span-3">
           <div class="card">
             <div class="text-align--center">
@@ -87,7 +90,7 @@
           <p class="subheading">I'm a page heading subheading!</p>
         </div>
       </div>
-      <div class="flex-grid">
+      <div class="flex-grid flex-grid--wrap">
         <div class="flex-grid__item flex-grid__item--grid flex-grid__item--span-4">
           <div class="card card--border">
             <div class="text-align--center">
@@ -166,9 +169,9 @@
       </div>
     </div>
   </div>
-  <div class="page-section">
+  <div class="page-section page-section--light">
     <div class="container">
-      <div class="flex-grid">
+      <div class="flex-grid flex-grid--wrap">
         <div class="flex-grid__item flex-grid__item--grid  flex-grid__item--span-6">
           <div class="image">
             <img src="assets/placeholder.png" class="image__img"/>
@@ -187,10 +190,119 @@
               </ul>
             </div>
             <div class="flex-grid__item">
-              <button class="button button--block">
+              <button class="button">
                 OPEN
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-section">
+    <div class="container">
+      <div class="spacing--bottom-lg">
+        <div class="text-align--center">
+          <h2>Page Title</h2>
+          <p class="spacing--sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo reprehenderit nesciunt non.
+          </p>
+          <p class="spacing--sm">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, suscipit?
+          </p>
+        </div>
+      </div>
+      <div class="card card--border">
+        <div class="flex-grid flex-grid--wrap flex-grid--space-between">
+          <div class="flex-grid__item">
+            <div class="flex-grid">
+              <div class="flex-grid__item">
+                <span>Post Title</span>
+              </div>
+              <div class="flex-grid__item">
+                <div class="star-rating">
+                  <img src="assets/star.svg" class="icon"/>
+                  <img src="assets/star.svg" class="icon"/>
+                  <img src="assets/star.svg" class="icon"/>
+                  <img src="assets/star.svg" class="icon"/>
+                  <img src="assets/star.svg" class="icon"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-grid__item">
+            <div class="flex-grid flex-grid--align-items-center">
+              <div class="flex-grid__item">
+                <span>Gav McKenzie</span>
+              </div>
+              <div class="flex-grid__item">
+                <img src="assets/avatar.svg" alt="A placeholder avatar" class="avatar">
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, libero ex quibusdam placeat,
+          dolorem omnis ratione quidem nisi laudantium exercitationem aliquid natus iure eaque. Cupiditate
+          a cumque magni atque asperiores?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta non consequuntur quod nihil quae.
+          Quibusdam vero quasi earum odit! Praesentium voluptatum repellendus adipisci natus cupiditate earum,
+          iure maxime laudantium sit eaque ipsam assumenda perspiciatis consequatur eveniet libero perferendis
+          explicabo! Eveniet hic laudantium voluptatum enim assumenda cupiditate recusandae nisi amet facilis.
+        </p>
+      </div>
+      <div class="spacing--sm"></div>
+      <div class="card card--border">
+        <div class="flex-grid flex-grid--wrap flex-grid--space-between">
+          <div class="flex-grid__item">
+            <div class="flex-grid">
+              <div class="flex-grid__item">
+                <span>Post Title</span>
+              </div>
+              <div class="flex-grid__item">
+                <div class="star-rating">
+                  <img src="assets/star.svg" class="icon"/>
+                  <img src="assets/star.svg" class="icon"/>
+                  <img src="assets/star.svg" class="icon"/>
+                  <img src="assets/star.svg" class="icon"/>
+                  <img src="assets/star.svg" class="icon"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-grid__item">
+            <div class="flex-grid flex-grid--align-items-center">
+              <div class="flex-grid__item">
+                <span>Carl Mensah</span>
+              </div>
+              <div class="flex-grid__item">
+                <img src="assets/avatar.svg" alt="A placeholder avatar" class="avatar">
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, libero ex quibusdam placeat,
+          dolorem omnis ratione quidem nisi laudantium exercitationem aliquid natus iure eaque. Cupiditate
+          a cumque magni atque asperiores?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta non consequuntur quod nihil quae.
+          Quibusdam vero quasi earum odit! Praesentium voluptatum repellendus adipisci natus cupiditate earum,
+          iure maxime laudantium sit eaque ipsam assumenda perspiciatis consequatur eveniet libero perferendis
+          explicabo! Eveniet hic laudantium voluptatum enim assumenda cupiditate recusandae nisi amet facilis.
+        </p>
+      </div>
+      <div class="spacing--top-lg">
+        <div class="flex-grid flex-grid--align-items-center flex-grid--justify-content-center">
+          <div class="flex-grid__item">
+            <button class="button">
+              OPEN
+            </button>
           </div>
         </div>
       </div>

@@ -2,11 +2,15 @@
 .spacing {
   padding: var(--spacing);
 }
-
+.spacing--inline {
+  display: inline-block;
+}
 .spacing--sm {
   padding: var(--spacing-small);
 }
-
+.spacing--left-sm {
+  padding-left: var(--spacing-small);
+}
 .spacing--lg {
   padding: var(--spacing-large);
 }
@@ -27,3 +31,6 @@
   padding-bottom: var(--spacing-xlarge);
 }
 
+.spacing--top-lg {
+  padding-top: var(--spacing-large);
+}
