@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "parcel": "^2.4.1",
-    "posthtml-match-helper": "1.0.3",
-    "posthtml-modules": "^0.8.1"
+    "posthtml-modules": "^0.9.0"
   }
 }
